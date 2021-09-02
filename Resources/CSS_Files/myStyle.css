@@ -1,0 +1,147 @@
+
+/*Start Header Style*/
+.header_area {
+    width: 100%;
+    /*transition: background 0.4s, all 0.3s linear; */
+}
+/*header->topmenu*/
+.top_menu .left_side,.top_menu .right_side {
+    margin-bottom: 0px;
+    padding: 12px 0; 
+}
+.top_menu .left_side li,.top_menu .right_side li {
+      display: inline-block;
+ }
+.top_menu .left_side li:last-child a,.top_menu .right_side li:last-child a {
+        padding-right: 0px;
+        border-right: 0px;
+}
+.top_menu .left_side li a,.top_menu .right_side li a {
+        font-size: 12px;
+        color: #777777;
+        display: inline-block;
+        transition: all 300ms linear 0s;
+        text-transform: uppercase;
+}
+.top_menu .left_side li:hover a,.top_menu .right_side li:hover a {
+        color: #3face4;
+}
+.top_menu .left_side li a {
+    margin-right: 20px;
+    color: #777777; 
+}
+.top_menu .left_side li a:hover a {
+      color: #3face4; 
+}
+.top_menu .right_side li:last-child a {
+    margin-right: 0; 
+}
+.top_menu .right_side li a {
+    margin-right: 30px; 
+    text-decoration: none;
+}
+.top_menu .right_side li a i {
+      margin-right: 15px;
+      color: #3face4; 
+}
+/*header->main_menu*/
+.header_area .main_menu {
+    background: #e3dabf; 
+    transition: postion 1.3s;
+}
+
+.header_area .main_menu  .logo{
+    float: right;
+    margin-right: -30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px burlywood;
+}
+.header_area .main_menu  .logo:hover{
+    color: #3face4;
+}
+.logo img{
+    border-radius: 44%;
+}
+#navbarSupportedContent
+{
+    margin-top: 26px;
+}
+.header_area .main_menu .LinksUL > li > a:hover{
+    color: #3face4;
+}
+@media screen and (max-width: 600px) {
+    .header_area .main_menu .LinksUL{
+        justify-content: flex-end !important;
+    }
+}
+/*End Header Style*/
+/*Start Slider Style*/
+
+/*video and info....*/
+#VideoSection h1{
+    border-bottom: 5px solid #ffc700;
+    padding-bottom: 10px;
+}
+/*Start HospitalCards Style*/
+#HospitalCards div #HospitalCardsTitle{
+    font-size: 25px;
+    border-bottom: 2px solid gray;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+#HospitalCards .card{
+    box-shadow: 3px 2px 4px black;
+    transition: box-shadow 1s,transform 1s;
+}
+#HospitalCards .card:hover{
+    box-shadow: 3px 2px 4px #3face4;
+    transform: scale(1.02);
+}
+
+/**/
+#ContactWithUs{
+    background-color: #747b82;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#ContactWithUs #SupportInfo .ContectWithUsIcon{
+    transition: color 0.5s;
+    color:#fff;
+    font-size: 25px;
+}
+#ContactWithUs #SupportInfo .ContectWithUsIcon:hover{
+    color:#3face4;
+}
+/*Start Style Footer*/
+#Footer{
+    background-color: #222;
+}
+#Footer ul li{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+#Footer h6{
+    font-size: 20px;
+}
+#Footer ul li > a{
+    color :#777;
+    transition: color 0.5s;
+}
+#Footer ul li > a:hover{
+    color :#3face4;
+    text-decoration: none;
+}
+/*Go to top of page*/
+#top-page-arrow {
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    color: white;
+    display: none;
+  }
